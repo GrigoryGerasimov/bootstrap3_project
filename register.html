@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="keywords" content="registration, form, bootstrap3">
+    <meta name="description" content="Registration form">
+    <title>Register</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="project_styles.css">
+</head>
+
+<body>
+    <div class="container-fluid _bg_inverse">
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                <fieldset class="_margin_optimization">
+                    <legend class="_color_inverse">Registration Form</legend>
+                    <form class="form form-horizontal _color_inverse_no_hover" action="#" method="POST"
+                        autocomplete="on">
+                        <div class="form-group">
+                            <label for="login-field" class="control-label _font_weight">Login</label>
+                            <input type="text" class="form-control" id="login-field" name="login"
+                                placeholder="Please create your login" required></input>
+                        </div>
+                        <div class="form-group">
+                            <label for="pswd" class="control-label _font_weight">Password</label>
+                            <input type="password" class="form-control" id="pswd" name="password"
+                                placeholder="Please create your password" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="confirm-pswd" class="control-label _font_weight">Password Confirmation</label>
+                            <input type="password" class="form-control" id="confirm-pswd" name="password-confirmation"
+                                placeholder="Please confirm your password" readonly required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email-id" class="control-label _font_weight">E-Mail</label>
+                            <div class="input-group">
+                                <input type="email" class="form-control" id="email-id" name="email"
+                                    placeholder="john.doe">
+                                <span class="input-group-addon">@</span>
+                                <input type="email" class="form-control" id="email-id" name="email"
+                                    placeholder="example.com">
+                            </div>
+                        </div>
+                        <div class="form-group form-inline">
+                            <input type="radio" class="input-sm form-control _radio-checkbox_height" name="gender"
+                                value="male" checked>Male
+                            <input type="radio" class="input-sm form-control _radio-checkbox_height" name="gender"
+                                value="female">Female
+                            <input type="radio" class="input-sm form-control _radio-checkbox_height" name="gender"
+                                value="other">Other
+                        </div>
+                        <div class="form-group">
+                            <label for="age" class="control-label _font_weight">Your Age</label>
+                            <input type="number" class="form-control" id="age" name="age" min="18" max="130" step="1"
+                                value="18" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="bday" class="control-label _font_weight">Your Date of Birth</label>
+                            <input type="date" class="form-control" id="bday" name="date-of-birth" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="comment" class="control-label _font_weight">Why do you want to register on our
+                                portal?</label>
+                            <textarea name="comment" id="comment" cols="30" rows="10" class="form-control"
+                                placeholder="Feel free to provide your comment here..."></textarea>
+                        </div>
+                        <div class="form-group form-inline">
+                            <input type="checkbox" class="input-sm form-control _radio-checkbox_height" name="confirm">
+                            <label for="checkbox-confirm" class="control-label _font_weight"><small>Please confirm the
+                                    correctness of your data</small></label>
+                        </div>
+                        <div class="btn btn-group col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3">
+                            <button type="submit" class="btn btn-success" disabled>Send</button>
+                            <a href="index.html" class="btn btn-warning" target="_self">Homepage</a>
+                            <button type="reset" class="btn btn-danger">Reset</button>
+                        </div>
+
+                    </form>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+    <script src="jquery-1.11.1.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+</body>
+
+</html>

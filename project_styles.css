@@ -1,0 +1,146 @@
+._font_weight {
+    font-weight: 300 !important;
+}
+
+._font_weight_bold {
+    font-weight: 700 !important;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+._radio-checkbox_height {
+    height: auto;
+}
+
+._margin_centralize {
+    margin: 8px 0;
+}
+
+._margin_optimization {
+    margin: 30px 0;
+}
+
+._margin_optimization_md {
+    margin: 130px 0;
+}
+
+._margin_optimization_col-item {
+    margin-bottom: 30px;
+}
+
+._margin_optimization_nav-tabs {
+    margin: 0 auto;
+}
+
+._section_margin {
+    margin-top: 100px;
+}
+
+._feedback_padding_optimization {
+    padding: 3%;
+}
+
+._centralize {
+    margin: 10px auto;
+}
+
+._no_border {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+._bg_default {
+    background-color: #f8f8f8;
+}
+
+._bg_inverse {
+    background-color: #222;
+}
+
+._color_inverse, ._color_inverse_no_hover {
+    color: #fff !important;
+}
+
+._color_inverse:hover, ._color_inverse:focus {
+    color: #777 !important;
+}
+
+._img_link, ._icon_link ._icon {
+    transition: transform 0.4s ease-in-out;
+}
+
+._img_link:hover {
+    transform: scale(1.1);
+}
+
+._icon_link:hover ._icon {
+    transform: scale(2.0);
+}
+
+._fb_color {
+    filter: invert(18%) sepia(40%) saturate(5298%) hue-rotate(208deg) brightness(95%) contrast(103%);
+}
+
+._tw_color {
+    filter: invert(62%) sepia(71%) saturate(3836%) hue-rotate(175deg) brightness(96%) contrast(97%);
+}
+
+._insta_color {
+    filter: invert(51%) sepia(82%) saturate(1706%) hue-rotate(338deg) brightness(101%) contrast(87%);
+}
+
+._telegram_color {
+    filter: invert(30%) sepia(98%) saturate(884%) hue-rotate(184deg) brightness(94%) contrast(85%);
+}
+
+._youtube_color {
+    filter: invert(12%) sepia(93%) saturate(5521%) hue-rotate(358deg) brightness(107%) contrast(116%);
+}
+
+._pointer {
+    cursor: pointer;
+}
+
+._bottom_collapse_btn {
+    width: 50%;
+    margin-left: 100%;
+    margin-right: 25%;
+    background-color: #f8f8f8;
+}
+
+._bottom_collapse_btn:hover, ._bottom_collapse_btn:focus {
+    color: #f8f8f8;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    ._margin_optimization_xs {
+        margin: 100px 20%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    ._margin_optimization_sm {
+        margin: 170px 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    ._flex_appearance {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    ._float_elimination {
+        float: none !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    ._margin_optimization_carousel-item-img:nth-child(1), ._margin_optimization_carousel-item-img:nth-child(2), ._avatar_margin_optimization {
+        margin-bottom: 30px;
+    }
+}
